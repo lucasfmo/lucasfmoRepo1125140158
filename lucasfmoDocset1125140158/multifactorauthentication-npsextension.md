@@ -1,14 +1,14 @@
-<properties  
-    pageTitle="Cloud-based MFA/Installing or configuring Azure MFA NPS extension" 
-    description="Instalación o configuración de extensiones para el servicio MFA (nube)" 
-    service="microsoft.multifactorauthentication" 
-    resource="" 
-    authors="kgremban" 
-    selfHelpType="generic" 
-    supportTopicIds="32565586" 
-    productPesIds="14947" 
-    cloudEnvironments="public" 
- /> 
+<properties
+   pageTitle="Cloud-based MFA/Installing or configuring Azure MFA NPS extension" 
+   description="Instalación o configuración de extensiones para el servicio MFA (nube)" 
+   service="microsoft.multifactorauthentication" 
+   resource="" 
+   authors="kgremban" 
+   selfHelpType="generic" 
+   supportTopicIds="32565586" 
+   productPesIds="14947" 
+   cloudEnvironments="public" 
+/>
 
 # <a name="installing-or-configuring-extensions-for-mfa-service-cloud"></a>Instalación o configuración de extensiones para el servicio MFA (nube)  
 ## <a name="recommended-steps"></a>**Pasos recomendados** 
