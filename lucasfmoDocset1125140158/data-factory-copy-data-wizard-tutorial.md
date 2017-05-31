@@ -78,7 +78,7 @@ In this step, you use the Azure portal to create an Azure data factory named **A
    3. Change the **Start date time** and the **End date time** so that the end date is set to today and start date to five days earlier.  
    4. Click **Next**.  
       
-      ![Copy Tool - Properties page](./media/data-factory-copy-data-wizard-tutorial/copy-tool-properties-page.png) 
+        ![Copy Tool - Properties page](./media/data-factory-copy-data-wizard-tutorial/copy-tool-properties-page.png) 
 3. On the **Source data store** page, click **Azure Blob Storage** tile. You use this page to specify the source data store for the copy task. 
    
     ![Copy Tool - Source data store page](./media/data-factory-copy-data-wizard-tutorial/copy-tool-source-data-store-page.png)
@@ -112,7 +112,8 @@ In this step, you use the Azure portal to create an Azure data factory named **A
    3. Select your Azure **subscription**.  
    4. Select **Server name** and **Database**.
    5. Enter **User name** and **Password**.
-   6. Click **Next**.  
+   6. Click **Next**.
+  
       
       ![Copy Tool - specify Azure SQL database](./media/data-factory-copy-data-wizard-tutorial/specify-azure-sql-database.png)
 10. On the **Table mapping** page, select **emp** for the **Destination** field from the drop-down list, click **down arrow** (optional) to see the schema and to preview the data.
