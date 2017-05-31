@@ -147,7 +147,7 @@ In this step, you use the Azure portal to create an Azure data factory named **A
 ## <a name="next-steps"></a>Next steps
 In this tutorial, you used Azure blob storage as a source data store and an Azure SQL database as a destination data store in a copy operation. The following table provides a list of data stores supported as sources and destinations by the copy activity: 
 
-[!INCLUDE [data-factory-supported-data-stores](../../includes/data-factory-supported-data-stores.md)]
+
 
 For details about fields/properties that you see in the copy wizard for a data store, click the link for the data store in the table. 
 
