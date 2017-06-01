@@ -113,7 +113,6 @@ In this step, you use the Azure portal to create an Azure data factory named **A
    4. Select **Server name** and **Database**.
    5. Enter **User name** and **Password**.
    6. Click **Next**.
-  
       
       ![Copy Tool - specify Azure SQL database](./media/data-factory-copy-data-wizard-tutorial/specify-azure-sql-database.png)
 10. On the **Table mapping** page, select **emp** for the **Destination** field from the drop-down list, click **down arrow** (optional) to see the schema and to preview the data.
