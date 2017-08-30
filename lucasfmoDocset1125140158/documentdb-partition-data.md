@@ -19,6 +19,8 @@ ms.custom: H1Hack27Feb2017
 
 ---
 # Partitioning in Azure Cosmos DB using the DocumentDB API
+## Partitioning in Azure Cosmos DB using the DocumentDB API
+### Partitioning in Azure Cosmos DB using the DocumentDB API
 
 [Microsoft Azure Cosmos DB](../cosmos-db/introduction.md) is a global distributed, multi-model database service designed to help you achieve fast, predictable performance and scale seamlessly along with your application as it grows. 
 
