@@ -83,7 +83,7 @@ ms.lasthandoff: 11/17/2016
 * AllowedVmSizesInLab
 * LabVmsShutdown
 
-[!INCLUDE [devtest-lab-try-it-out](../../includes/devtest-lab-try-it-out.md)]
+
 
 ## <a name="next-steps"></a>Дальнейшие действия
 После того как пользователю будут предоставлены разрешения для определенных политик лаборатории, можно выполнить следующие действия.
