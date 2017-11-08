@@ -27,7 +27,7 @@ ms.lasthandoff: 10/14/2017
 
 ## <a name="client-library"></a>用戶端程式庫
 
-使用 [適用於 Java 的 Azure Active Directory 驗證程式庫 (ADAL)](https://github.com/AzureAD/azure-activedirectory-library-for-java) 來設定 OAuth2、OpenID Connect 或 Active Directory Graph 驗證和 [SAML 2.0](https://docs.microsoft.com/azure/active-directory/develop/active-directory-saml-protocol-reference) 單一登入。
+使用 [適用於 Java 的 Azure Active Directory 驗證程式庫 (ADAL)](https://github.com/AzureAD/azure-activedirectory-library-for-java) 來設定 OAuth2、OpenID Connect 或 Active Directory Graph 驗證和 [SAML 2.0](azure/active-directory/develop/active-directory-saml-protocol-reference) 單一登入。
 
 [新增相依性](https://maven.apache.org/guides/getting-started/index.html#How_do_I_use_external_dependencies)至 Maven 的 `pom.xml` 檔案，以在專案中使用用戶端程式庫。
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 10/14/2017
 
 ### <a name="example"></a>範例
 
-使用 Azure Active Directory 的 [Graph API](https://docs.microsoft.com/azure/active-directory/develop/active-directory-graph-api) 來為 Active Directory 租用戶中的使用者擷取 JSON Web 權杖 (JWT)。 此權杖接著可供用來對應用程式或 API 驗證使用者。
+使用 Azure Active Directory 的 [Graph API](azure/active-directory/develop/active-directory-graph-api) 來為 Active Directory 租用戶中的使用者擷取 JSON Web 權杖 (JWT)。 此權杖接著可供用來對應用程式或 API 驗證使用者。
 
 ```java
 ExecutorService service = Executors.newFixedThreadPool(1);
