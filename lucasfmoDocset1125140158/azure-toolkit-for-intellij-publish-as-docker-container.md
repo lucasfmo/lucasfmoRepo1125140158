@@ -114,7 +114,7 @@ Docker containers are a widely used method for deploying web applications. By us
             
         b. On the **Docker Daemon Access** tab, provide the following information:
 
-          ![Create Docker Host][PUB06]
+      ![Create Docker Host][PUB06]  
 
              * **Docker Daemon port**: Enter the unique TCP port for your Docker host.
              * **TLS Security**: Enter the Transport Layer Security settings for your Docker host. You can choose from the following options:
