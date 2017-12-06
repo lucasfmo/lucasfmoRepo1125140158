@@ -27,7 +27,7 @@ Docker containers are a widely used method for deploying web applications. By us
 > More information about Docker is available on the [Docker website].
 >
 
-[!INCLUDE [azure-toolkit-for-intellij-prerequisites](../includes/azure-toolkit-for-intellij-prerequisites.md)]
+
 
 ## Publish your web app to Azure by using a Docker container
 
@@ -184,7 +184,7 @@ For more information about creating artifacts in IntelliJ, see [Configuring arti
 
 For additional resources for Docker, see the official [Docker website].
 
-[!INCLUDE [azure-toolkit-for-intellij-additional-resources](../includes/azure-toolkit-for-intellij-additional-resources.md)]
+
 
 <!-- URL List -->
 
