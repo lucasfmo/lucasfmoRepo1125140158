@@ -116,14 +116,14 @@ Docker containers are a widely used method for deploying web applications. By us
 
       ![Create Docker Host][PUB06]  
 
-             * **Docker Daemon port**: Enter the unique TCP port for your Docker host.
-             * **TLS Security**: Enter the Transport Layer Security settings for your Docker host. You can choose from the following options:
-                * **None**: Specifies that your virtual machine does not allow TLS connections.
-                * **Auto-generate**: Automatically creates the requisite settings for connecting via TLS.
-                * **Import from directory**: Specifies a directory that contains a set of previously saved TLS settings. The directory must contain the following six files: 
-                   * *ca.pem* and *ca-key.pem*: Contain the certificate and public key for the TLS Certificate Authority.
-                   * *cert.pem* and *key.pem*: Contain client certificate and public key which will be used for TLS authentication.
-                   * *server.pem* and *server-key.pem*: Contain the client certificate and public key that is used for TLS authentication.
+          * **Docker Daemon port**: Enter the unique TCP port for your Docker host.
+          * **TLS Security**: Enter the Transport Layer Security settings for your Docker host. You can choose from the following options:
+             * **None**: Specifies that your virtual machine does not allow TLS connections.
+             * **Auto-generate**: Automatically creates the requisite settings for connecting via TLS.
+             * **Import from directory**: Specifies a directory that contains a set of previously saved TLS settings. The directory must contain the following six files: 
+                * *ca.pem* and *ca-key.pem*: Contain the certificate and public key for the TLS Certificate Authority.
+                * *cert.pem* and *key.pem*: Contain client certificate and public key which will be used for TLS authentication.
+                * *server.pem* and *server-key.pem*: Contain the client certificate and public key that is used for TLS authentication.
 
 7. After you have entered the required information, click **Finish**.  
     The **Deploy Docker Container on Azure** wizard reappears.
