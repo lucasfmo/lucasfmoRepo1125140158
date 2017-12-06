@@ -288,8 +288,8 @@ When creating/editing an Azure alert rule, use an Action group, which has an ITS
 ## <a name="troubleshoot-itsm-connections-in-oms"></a>Troubleshoot ITSM connections in OMS
 1.  If connection fails from connected source's UI with an **Error in saving connection** message, take the following steps:
  - For ServiceNow, Cherwell and Provance connections,  
-        - ensure you correctly entered  the username, password, client ID, and client secret  for each of the connections.
-   - check if you have sufficient privileges in the corresponding ITSM product to make the connection.
+        - ensure you correctly entered  the username, password, client ID, and client secret  for each of the connections.  
+        - check if you have sufficient privileges in the corresponding ITSM product to make the connection.
  - For Service Manager connections,  
         - ensure that the Web app is successfully deployed and hybrid connection is created. To verify the connection is successfully established with the on-prem Service Manager machine, visit the  Web app URL as detailed in the documentation for making the [hybrid connection](log-analytics-itsmc-connections.md#configure-the-hybrid-connection).
 
