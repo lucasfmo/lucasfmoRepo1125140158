@@ -112,15 +112,15 @@ Docker containers are a widely used method for deploying web applications. By us
                   * *id_rsa*: Contains the RSA identification for a user.
                   * *id_rsa.pub*: Contains the RSA public key that is used for authentication.
             
-        b. On the **Docker Daemon Access** tab, provide the following information:
+        b. On the **Docker Daemon Access** tab, provide the following information:  
 
-      ![Create Docker Host][PUB06]  
+![Create Docker Host][PUB06]
 
           * **Docker Daemon port**: Enter the unique TCP port for your Docker host.
-          * **TLS Security**: Enter the Transport Layer Security settings for your Docker host. You can choose from the following options:
+          * **TLS Security**: Enter the Transport Layer Security settings for your Docker host. You can choose from the following options:  
              * **None**: Specifies that your virtual machine does not allow TLS connections.
              * **Auto-generate**: Automatically creates the requisite settings for connecting via TLS.
-             * **Import from directory**: Specifies a directory that contains a set of previously saved TLS settings. The directory must contain the following six files: 
+             * **Import from directory**: Specifies a directory that contains a set of previously saved TLS settings. The directory must contain the following six files:  
                 * *ca.pem* and *ca-key.pem*: Contain the certificate and public key for the TLS Certificate Authority.
                 * *cert.pem* and *key.pem*: Contain client certificate and public key which will be used for TLS authentication.
                 * *server.pem* and *server-key.pem*: Contain the client certificate and public key that is used for TLS authentication.
