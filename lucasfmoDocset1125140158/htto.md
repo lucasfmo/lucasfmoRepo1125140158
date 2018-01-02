@@ -31,7 +31,7 @@ A hiba elhárításához ellenőrizze az alkalmazás konfigurációját az Azure
 
 ## <a name="application-not-found-in-directory"></a>Az alkalmazás nem található a könyvtárban
 
-*Hiba AADSTS70001: "Https://contoso.com" azonosítójú alkalmazás nem található a könyvtárban*.
+*Hiba AADSTS70001: "https://contoso.com" azonosítójú alkalmazás nem található a könyvtárban*.
 
 **Lehetséges ok**
 
