@@ -17,7 +17,7 @@
 # <a name="we-ran-diagnostics-on-your-resource-and-found-an-issue"></a>お使いのリソースで診断が実行され、問題が見つかりました
 
 <!--issueDescription-->
-<!--$StartFreezeTime--> StartFreezeTime <!--$StartFreezeTime--> UTC ～ <!--$EndFreezeTime--> EndFreezeTime <!--$EndFreezeTime--> UTC の間に、VM フリーズの問題が発生したため、最近行われたデータベース **<!--$ServerName--> ServerName <!--/$ServerName-->** への接続試行が失敗しました。 軽減メカニズムが開始され、データベースが安定した状態に戻りました。 データベースが引き続き使用できない場合は、サポート チケットの作成に進んでください。
+ <!--$StartFreezeTime--> StartFreezeTime <!--$StartFreezeTime--> UTC ～ <!--$EndFreezeTime--> EndFreezeTime <!--$EndFreezeTime--> UTC の間に、VM フリーズの問題が発生したため、最近行われたデータベース **<!--$ServerName--> ServerName <!--/$ServerName-->** への接続試行が失敗しました。 軽減メカニズムが開始され、データベースが安定した状態に戻りました。 データベースが引き続き使用できない場合は、サポート チケットの作成に進んでください。
 <!--/issueDescription-->
 
 **影響の概要**<br>
