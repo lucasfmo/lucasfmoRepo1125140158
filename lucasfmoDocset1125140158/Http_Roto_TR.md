@@ -21,7 +21,7 @@ ms.lasthandoff: 12/11/2017
 ---
 # <a name="use-a-linux-vm-managed-service-identity-msi-to-access-azure-data-lake-store"></a>Azure Data Lake Store'a erişmek için bir Linux VM yönetilen hizmet kimliği (MSI) kullanın
 
-[!INCLUDE[preview-notice](../../includes/active-directory-msi-preview-notice.md)]
+
 
 Bu öğretici, bir yönetilen hizmet Kimliği'ni (MSI) bir Linux sanal makine (VM) için bir Azure Data Lake Store'a erişmek için nasıl kullanılacağını gösterir. Yönetilen hizmet kimliği Azure tarafından otomatik olarak yönetilir ve Azure AD kimlik doğrulaması, kimlik bilgileri kodunuza eklemek zorunda kalmadan destekleyen hizmetler için kimlik doğrulaması sağlar. Aşağıdakileri nasıl yapacağınızı öğrenirsiniz:
 
@@ -32,9 +32,7 @@ Bu öğretici, bir yönetilen hizmet Kimliği'ni (MSI) bir Linux sanal makine (V
 
 ## <a name="prerequisites"></a>Ön koşullar
 
-[!INCLUDE [msi-qs-configure-prereqs](../../includes/active-directory-msi-qs-configure-prereqs.md)]
 
-[!INCLUDE [msi-tut-prereqs](../../includes/active-directory-msi-tut-prereqs.md)]
 
 ## <a name="sign-in-to-azure"></a>Azure'da oturum açma
 
