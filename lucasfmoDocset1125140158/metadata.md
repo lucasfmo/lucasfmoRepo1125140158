@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Driver property doesn't correspond to an installed ODBC driver"
-    description="A propriedade "Controlador" não corresponde a um controlador ODBC instalado"
+    pageTitle="'Driver' property doesn't correspond to an installed ODBC driver"
+    description="A propriedade Controlador não corresponde a um controlador ODBC instalado"
     service="microsoft.analysisservices"
     resource="servers"
     authors="bnmaa"
