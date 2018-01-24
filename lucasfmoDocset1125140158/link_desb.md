@@ -142,7 +142,7 @@ Ujistěte se, že počítač se systémem Mac OS je připojený k Azure AD. Poky
 
 #### <a name="google-chrome-all-platforms"></a>Google Chrome (všechny platformy)
 
-Pokud máte elementem [AuthNegotiateDelegateWhitelist](https://www.chromium.org/administrators/policy-list-3#AuthNegotiateDelegateWhitelist) nebo [AuthServerWhitelist](https://www.chromium.org/administrators/policy-list-3#AuthServerWhitelist) nastavení zásad ve vašem prostředí, ujistěte se, že přidáte adresy URL služby Azure AD (`https://autologon.microsoftazuread-sso.com` a https://aadg.windows.net.nsatc.net) k nim také.
+Pokud máte elementem [AuthNegotiateDelegateWhitelist](https://www.chromium.org/administrators/policy-list-3#AuthNegotiateDelegateWhitelist) nebo [AuthServerWhitelist](https://www.chromium.org/administrators/policy-list-3#AuthServerWhitelist) nastavení zásad ve vašem prostředí, ujistěte se, že přidáte adresy URL služby Azure AD https://autologon.microsoftazuread-sso.com a https://aadg.windows.net.nsatc.net) k nim také.
 
 #### <a name="google-chrome-mac-os-only"></a>Google Chrome (pouze Mac OS)
 
