@@ -22,7 +22,7 @@ ms.author: v-jysur
 The IT Service Management Connector (ITSMC) provides a bi-directional integration between a supported IT Service Management (ITSM) product/service and Log Analytics.  Through this connection, you can create incidents, alerts, or events in ITSM product based on Log Analytics' alerts, log records or Azure alerts. The connector also imports data such as incidents, and change requests from ITSM product into OMS Log Analytics.
 
 With ITSMC, you can:
-
+ssasas
   - Integrate operational alerts with your incident management practices in the ITSM tool of your choice.
     - Create work items (like alert, event, incident) in ITSM from OMS alerts and through log search.
     - Create work items based on your Azure Activity Log alerts through ITSM Action in Action Groups.
