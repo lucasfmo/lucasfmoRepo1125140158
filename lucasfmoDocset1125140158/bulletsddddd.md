@@ -14,7 +14,7 @@ ms.devlang: na
 ms.custom: mvc
 ms.openlocfilehash: 78e911d17fe8c468cf89ec1477f1c5144e6669b6
 ms.sourcegitcommit: 9890483687a2b28860ec179f5fd0a292cdf11d22
-ms.translationtype: HT
+ms.translationtype: HT   
 ms.contentlocale: cs-CZ
 ms.lasthandoff: 01/24/2018
 ---
