@@ -418,7 +418,6 @@ For more information, see the following resources.
 [Azure Storage SDK for Node]: https://github.com/Azure/azure-storage-node
 [Build and deploy a Node.js web app to Azure using Web Matrix]: https://www.microsoft.com/web/webmatrix/
 [Using the REST API]: http://msdn.microsoft.com/library/azure/hh264518.aspx
-[Azure portal]: https://portal.azure.com
 [Build and deploy a Node.js application to an Azure Cloud Service](../../cloud-services/cloud-services-nodejs-develop-deploy-app.md)
 [Azure Storage Team Blog]: http://blogs.msdn.com/b/windowsazurestorage/
 [Azure Storage SDK for Node API Reference]: http://dl.windowsazure.com/nodestoragedocs/index.html
