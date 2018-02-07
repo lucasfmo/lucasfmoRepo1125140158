@@ -228,7 +228,7 @@ Tato část ilustruje způsob použití rozhraní API Route Service služeb Azur
             for (var leg of route.legs) {
                 var legCoordinates = leg.points.map((point) => [point.longitude, point.latitude]);
                 routeCoordinates = routeCoordinates.concat(legCoordinates);
-            }
+            } 
 
             var routeLinestring = new atlas.data.LineString(routeCoordinates);
             map.addLinestrings([new atlas.data.Feature(routeLinestring)], {
