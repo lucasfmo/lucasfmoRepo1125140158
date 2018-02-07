@@ -209,7 +209,8 @@ Tato část ilustruje způsob použití rozhraní API Route Service služeb Azur
     ```
     Tento fragment kódu vytvoří požadavek [XMLHttpRequest](https://xhr.spec.whatwg.org/) a přidá obslužnou rutinu události pro parsování příchozí odpovědi. V případě úspěšné odpovědi vytvoří pole souřadnic pro vrácenou trasu a přidá ji do vrstvy `truckRouteLayerName` na mapě. 
     
-    Tento fragment kódu rovněž odešle dotaz na rozhraní API Route Service s cílem zjistit trasu pro zadaný počáteční a koncový bod pro příslušný klíč účtu. Jako indikace trasy pro těžké nákladní vozidlo jsou použité následující volitelné parametry: – Parametr `travelMode=truck` určuje režim dopravy *truck* (nákladní vozidlo). Další podporované režimy dopravy jsou *taxi*, *bus* (autobus), *van* (dodávka), *motorcycle* (motorka) a výchozí *car* (osobní auto).  
+    Tento fragment kódu rovněž odešle dotaz na rozhraní API Route Service s cílem zjistit trasu pro zadaný počáteční a koncový bod pro příslušný klíč účtu. Jako indikace trasy pro těžké nákladní vozidlo jsou použité následující volitelné parametry:  
+        – Parametr `travelMode=truck` určuje režim dopravy *truck* (nákladní vozidlo). Další podporované režimy dopravy jsou *taxi*, *bus* (autobus), *van* (dodávka), *motorcycle* (motorka) a výchozí *car* (osobní auto).  
         – Parametry `vehicleWidth`, `vehicleHeight` a `vehicleLength` určují rozměry vozidla v metrech a přihlíží se k nim jen v případě, že je nastaven režim dopravy *truck*.  
         – Parametr `vehicleLoadType` určuje, že se jedná o nebezpečný náklad, jehož doprava je na některých silnicích zakázána. Aktuálně se k němu přihlíží jen v případě režimu *truck*.  
 
