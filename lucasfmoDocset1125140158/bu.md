@@ -333,7 +333,7 @@ ServiceDeskWorkItemType_s="ChangeRequest"
 
 ## Řešení potíží s ITSM připojení
 1.	If connection fails from connected source's UI with an **Error in saving connection** message, take the following steps:
-- Pro připojení ServiceNow, Cherwell a Provance  
+- Pro připojení ServiceNow, Cherwell a Provance,  
            - Zkontrolujte správně zadali uživatelské jméno, heslo, ID klienta a tajný klíč klienta pro jednotlivá připojení.  
            - Zkontrolujte, pokud máte dostatečná oprávnění v rámci odpovídající ITSM produktu pro připojení.  
 - U připojení k portálu Service Manager  
