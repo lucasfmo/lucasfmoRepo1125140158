@@ -331,13 +331,12 @@ ServiceDeskWorkItemType_s="ChangeRequest"
 | Počítač  | Položky konfigurace |
 
 
-## Troubleshoot ITSM connections
-1.	If connection fails from connected source's UI with an **Error in saving connection** message, take the following steps:
-- For ServiceNow, Cherwell and Provance connections,  
-           - ensure you correctly entered  the username, password, client ID, and client secret  for each of the connections.  
-           - check if you have sufficient privileges in the corresponding ITSM product to make the connection.  
-- For Service Manager connections,  
-           - ensure that the Web app is successfully deployed and hybrid connection is created. To verify the connection is successfully established with the on-prem Service Manager machine, visit the  Web app URL as detailed in the documentation for making the [hybrid connection](log-analytics-itsmc-connections.md#configure-the-hybrid-connection).  
+1.  Pokud připojení selže z uživatelského rozhraní připojené zdroje s **Chyba při ukládání připojení** zpráva, proveďte následující kroky:
+- Pro připojení ServiceNow, Cherwell a Provance  
+           - Zkontrolujte správně zadali uživatelské jméno, heslo, ID klienta a tajný klíč klienta pro jednotlivá připojení.  
+           - Zkontrolujte, pokud máte dostatečná oprávnění v rámci odpovídající ITSM produktu pro připojení.  
+- U připojení k portálu Service Manager  
+           - Zajistěte, aby webová aplikace je úspěšně nasazen a hybridní připojení se vytvoří. Ověřte připojení se úspěšně naváže na místní počítač portálu Service Manager, najdete na adresu URL webové aplikace podle popisu v dokumentaci k provádění [hybridní připojení](log-analytics-itsmc-connections.md#configure-the-hybrid-connection).  
 
 2.	Pokud není získávání synchronizovat data z ServiceNow k analýze protokolů, zajistěte, aby ServiceNow instance není pozastaveno. Instance ServiceNow Dev někdy přejděte do režimu spánku při nečinnosti, po dlouhou dobu. Jinak ohlaste daný problém.
 3.  Pokud OMS výstrahy fire, ale pracovní položky nejsou vytvořeny v produktu ITSM nebo položek konfigurace nejsou vytvořen nebo propojené pracovní položky nebo další obecné informace, podívejte se na těchto místech:
