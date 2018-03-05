@@ -350,7 +350,7 @@ ServiceDeskWorkItemType_s="ChangeRequest"
 3.  Pokud se vám nepodaří vytvoření oboru názvů service bus relay, ujistěte se, že zprostředkovatel požadovaný prostředek je zaregistrován v rámci předplatného. Pokud není zaregistrovaný, ručně vytvořte obor názvů předávání sběrnice z portálu Azure. Můžete také vytvořit ji při [vytvoření hybridního připojení](log-analytics-itsmc-connections.md#configure-the-hybrid-connection) z portálu Azure.
 
 
-## <a name="contact-us"></a>Kontaktujte nás
+## <a name="contact-us"></a>Kontaktujte nás 
 
 Pro dotazy nebo zpětnou vazbu na správu konektoru služby IT, kontaktujte nás na adrese [ omsitsmfeedback@microsoft.com ](mailto:omsitsmfeedback@microsoft.com).
 
