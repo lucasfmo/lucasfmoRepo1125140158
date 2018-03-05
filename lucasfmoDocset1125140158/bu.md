@@ -331,6 +331,8 @@ ServiceDeskWorkItemType_s="ChangeRequest"
 | Počítač  | Položky konfigurace |
 
 
+## <a name="troubleshoot-itsm-connections"></a>Řešení potíží s ITSM připojení
+
 1.  Pokud připojení selže z uživatelského rozhraní připojené zdroje s **Chyba při ukládání připojení** zpráva, proveďte následující kroky:
 - Pro připojení ServiceNow, Cherwell a Provance  
            - Zkontrolujte správně zadali uživatelské jméno, heslo, ID klienta a tajný klíč klienta pro jednotlivá připojení.  
