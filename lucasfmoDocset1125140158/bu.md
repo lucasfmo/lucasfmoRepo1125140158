@@ -334,7 +334,7 @@ ServiceDeskWorkItemType_s="ChangeRequest"
 ## Řešení potíží s ITSM připojení
 1.	If connection fails from connected source's UI with an **Error in saving connection** message, take the following steps:
 - Pro připojení ServiceNow, Cherwell a Provance,  
-           - Zkontrolujte správně zadali uživatelské jméno, heslo, ID klienta a tajný klíč klienta pro jednotlivá připojení.  
+           - ensure you correctly entered  the username, password, client ID, and client secret  for each of the connections.  
            - Zkontrolujte, pokud máte dostatečná oprávnění v rámci odpovídající ITSM produktu pro připojení.  
 - U připojení k portálu Service Manager  
            - Zajistěte, aby webová aplikace je úspěšně nasazen a hybridní připojení se vytvoří. Ověřte připojení se úspěšně naváže na místní počítač portálu Service Manager, najdete na adresu URL webové aplikace podle popisu v dokumentaci k provádění [hybridní připojení](log-analytics-itsmc-connections.md#configure-the-hybrid-connection).  
