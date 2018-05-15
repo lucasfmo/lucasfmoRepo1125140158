@@ -33,9 +33,9 @@ ms.workload:
 # How to: Create Office Projects in Visual Studio
   You can use [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to create VSTO Add-in and document-level customizations for Microsoft Office applications. For more information about these types of projects, see [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  
   
- [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
+
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+
   
 ### To create a VSTO Add-in project  
   
