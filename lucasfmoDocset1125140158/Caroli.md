@@ -31,7 +31,7 @@ ms.workload:
   - "office"
 ---
 # How to: Create Office Projects in Visual Studio
-  You can use [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to create VSTO Add-in and document-level customizations for Microsoft Office applications. For more information about these types of projects, see [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  
+  You can use  to create VSTO Add-in and document-level customizations for Microsoft Office applications. For more information about these types of projects, see [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  
   
 
   
@@ -39,12 +39,12 @@ ms.workload:
   
 ### To create a VSTO Add-in project  
   
-1.  On the **File** menu, choose **New**, **Project**. If your integrated development environment (IDE) is set to use [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] development settings, on the **File** menu, choose **New**, **Project**.  
+1.  On the **File** menu, choose **New**, **Project**. If your integrated development environment (IDE) is set to use  development settings, on the **File** menu, choose **New**, **Project**.  
   
      The **New Project** dialog box appears.  
   
     > [!NOTE]  
-    >  Office projects target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] by default. For more information, see [.NET Framework Client Profile](/dotnet/framework/deployment/client-profile).  
+    >  Office projects target the  by default. For more information, see [.NET Framework Client Profile](/dotnet/framework/deployment/client-profile).  
   
 2.  In the templates pane, under the node for the language you want to use, expand **Office/SharePoint**.  
   
@@ -95,7 +95,7 @@ ms.workload:
      The **New Project** dialog box appears.  
   
     > [!NOTE]  
-    >  Office projects target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] by default.  For more information, see [.NET Framework Client Profile](/dotnet/framework/deployment/client-profile).  
+    >  Office projects target the  by default.  For more information, see [.NET Framework Client Profile](/dotnet/framework/deployment/client-profile).  
   
 2.  In the templates pane, under the node for the language you want to use, expand **Office/SharePoint**.  
   
@@ -146,7 +146,7 @@ ms.workload:
     -   Percent sign (%)  
   
     > [!NOTE]  
-    >  If you use an existing document in a [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] project, only use documents that were created in or converted to [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)]. Similarly, if you use an existing document in a Word 2010 project, only use documents that were created in or converted to Word 2010. Certain features will be disabled in the document if you use a document that was created in an earlier version of Word. If you try to write code that uses these features, you might encounter errors in your project. To convert a document, open it in [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or Word 2010, on the **File** tab on the ribbon, choose **Info**, **Convert**.  
+    >  If you use an existing document in a  project, only use documents that were created in or converted to . Similarly, if you use an existing document in a Word 2010 project, only use documents that were created in or converted to Word 2010. Certain features will be disabled in the document if you use a document that was created in an earlier version of Word. If you try to write code that uses these features, you might encounter errors in your project. To convert a document, open it in  or Word 2010, on the **File** tab on the ribbon, choose **Info**, **Convert**.  
   
 8.  Choose **Finish**.  
   
@@ -163,5 +163,3 @@ ms.workload:
  [Collaborative Development of Office Solutions](../vsto/collaborative-development-of-office-solutions.md)   
  [Designing and Creating Office Solutions](../vsto/designing-and-creating-office-solutions.md)   
  [Getting Started Programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)  
-  
-  
