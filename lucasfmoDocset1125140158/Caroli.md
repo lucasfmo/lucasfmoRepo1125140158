@@ -61,7 +61,7 @@ ms.workload:
   
      Locations have the following formats:  
   
-    -   [*drive*\]:  
+    -   [*drive*\]:\ 
   
     -   \\\\*Server*\\*Share*  
   
