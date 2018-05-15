@@ -61,8 +61,7 @@ ms.lasthandoff: 04/16/2018
   
      <span data-ttu-id="cc100-122">Les emplacements ont les formats suivants :</span><span class="sxs-lookup"><span data-stu-id="cc100-122">Locations have the following formats:</span></span>  
   
-    -   [*lecteur*\]: \\
-[*drive*\]:\\  
+    -   [*lecteur*\]:\\[*drive*\]:\\
   
     -   <span data-ttu-id="cc100-124">\\\\*Serveur*\\*partage*</span><span class="sxs-lookup"><span data-stu-id="cc100-124">\\\\*Server*\\*Share*</span></span>  
   
