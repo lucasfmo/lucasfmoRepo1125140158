@@ -242,7 +242,6 @@ ms.lasthandoff: 04/19/2018
 </p>
 
 ### <a name="parameter-tuning"></a><span data-ttu-id="8858d-270">Ajuste de parámetros</span><span class="sxs-lookup"><span data-stu-id="8858d-270">Ajuste de parámetros</span></span>
-
 <span data-ttu-id="8858d-271">Como sucede en la mayoría de los proyectos de aprendizaje automático, para obtener buenos resultados en un conjunto de datos nuevo, es necesario ajustar los parámetros con mucho cuidado, así como sopesar detenidamente diversas decisiones de diseño.</span><span class="sxs-lookup"><span data-stu-id="8858d-271">Como sucede en la mayoría de los proyectos de aprendizaje automático, para obtener buenos resultados en un conjunto de datos nuevo, es necesario ajustar los parámetros con mucho cuidado, así como sopesar detenidamente diversas decisiones de diseño.</span></span> <span data-ttu-id="8858d-272">Para hacer estas tareas más sencillas, todos los parámetros importantes (además de una breve explicación) se especifican en un único lugar: el archivo `PARAMETERS.py`.</span><span class="sxs-lookup"><span data-stu-id="8858d-272">Para hacer estas tareas más sencillas, todos los parámetros importantes (además de una breve explicación) se especifican en un único lugar: el archivo `PARAMETERS.py`.</span></span>
 
 <span data-ttu-id="8858d-273">Estos son algunos aspectos que sin duda se traducirán en mejoras:</span><span class="sxs-lookup"><span data-stu-id="8858d-273">Estos son algunos aspectos que sin duda se traducirán en mejoras:</span></span>
