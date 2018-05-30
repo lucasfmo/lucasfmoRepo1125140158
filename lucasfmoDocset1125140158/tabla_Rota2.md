@@ -233,12 +233,12 @@ ms.lasthandoff: 04/19/2018
 <span data-ttu-id="f4842-262">En la primera captura de pantalla, el perfeccionamiento de la DNN lleva a unas mejores precisiones que con el entrenamiento de SVM en todas las clases.</span><span class="sxs-lookup"><span data-stu-id="f4842-262">In the first screenshot, the DNN refinement leads to better accuracies than SVM training for all classes.</span></span> <span data-ttu-id="f4842-263">La segunda captura de pantalla muestra todas las métricas de las que se hace un seguimiento, incluido el clasificador que se usó.</span><span class="sxs-lookup"><span data-stu-id="f4842-263">The second screenshot shows all metrics that are being tracked, including what the classifier was.</span></span> <span data-ttu-id="f4842-264">Este seguimiento se realiza en el script `5_evaluate.py`, llamando al registrador de Azure Machine Learning Workbench.</span><span class="sxs-lookup"><span data-stu-id="f4842-264">This tracking is done in the script `5_evaluate.py` by calling the Azure Machine Learning Workbench logger.</span></span> <span data-ttu-id="f4842-265">El script también guarda la curva de ROC y la matriz de confusión en la carpeta *outputs*.</span><span class="sxs-lookup"><span data-stu-id="f4842-265">In addition, the script also saves the ROC curve and confusion matrix to the *outputs* folder.</span></span> <span data-ttu-id="f4842-266">Esta carpeta *outputs* es especial, en el sentido de que también se realiza un seguimiento de su contenido por medio de la característica de historial de Workbench. Por lo tanto, se puede tener acceso a sus archivos siempre que se quiera, independientemente de si las copias locales se han sobrescrito.</span><span class="sxs-lookup"><span data-stu-id="f4842-266">This *outputs* folder is special in that its content is also tracked by the Workbench history feature and hence the output files can be accessed at any time, regardless of whether local copies have been overwritten.</span></span>
 
 <span data-ttu-id="f4842-267"><p align="center">
-<img src="media/scenario-image-classification-using-cntk/run_comparison1.jpg" alt="alt text" width="700"/> </p>
+<img src="media/scenario-image-classification-using-cntk/run_comparison1.jpg" alt="alt text" width="700"/></p>
 
 <p align="center">
 <img src="media/scenario-image-classification-using-cntk/run_comparison2b.jpg" alt="alt text" width="700"/>
 </p></span><span class="sxs-lookup"><span data-stu-id="f4842-267"><p align="center">
-<img src="media/scenario-image-classification-using-cntk/run_comparison1.jpg" alt="alt text" width="700"/> </p>
+<img src="media/scenario-image-classification-using-cntk/run_comparison1.jpg" alt="alt text" width="700"/></p>
 
 <p align="center">
 <img src="media/scenario-image-classification-using-cntk/run_comparison2b.jpg" alt="alt text" width="700"/>
