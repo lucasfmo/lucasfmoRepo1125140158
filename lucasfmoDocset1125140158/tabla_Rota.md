@@ -233,12 +233,15 @@ Azure Machine Learning Workbench almacena el historial de cada ejecución en Azu
 
 En la primera captura de pantalla, el perfeccionamiento de la DNN lleva a unas mejores precisiones que con el entrenamiento de SVM en todas las clases. La segunda captura de pantalla muestra todas las métricas de las que se hace un seguimiento, incluido el clasificador que se usó. Este seguimiento se realiza en el script `5_evaluate.py`, llamando al registrador de Azure Machine Learning Workbench. El script también guarda la curva de ROC y la matriz de confusión en la carpeta *outputs*. Esta carpeta *outputs* es especial, en el sentido de que también se realiza un seguimiento de su contenido por medio de la característica de historial de Workbench. Por lo tanto, se puede tener acceso a sus archivos siempre que se quiera, independientemente de si las copias locales se han sobrescrito.
 
-<p align="center"><img src="media/scenario-image-classification-using-cntk/run_comparison1.jpg" alt="alt text" width="700"/></p>
+<p align="center">
+<img src="media/scenario-image-classification-using-cntk/run_comparison1.jpg" alt="alt text" width="700"/>
+</p>
 
-<p align="center"><img src="media/scenario-image-classification-using-cntk/run_comparison2b.jpg" alt="alt text" width="700"/></p>
+<p align="center">
+<img src="media/scenario-image-classification-using-cntk/run_comparison2b.jpg" alt="alt text" width="700"/>
+</p>
 
 ### <a name="parameter-tuning"></a>Ajuste de parámetros
-
 Como sucede en la mayoría de los proyectos de aprendizaje automático, para obtener buenos resultados en un conjunto de datos nuevo, es necesario ajustar los parámetros con mucho cuidado, así como sopesar detenidamente diversas decisiones de diseño. Para hacer estas tareas más sencillas, todos los parámetros importantes (además de una breve explicación) se especifican en un único lugar: el archivo `PARAMETERS.py`.
 
 Estos son algunos aspectos que sin duda se traducirán en mejoras:
