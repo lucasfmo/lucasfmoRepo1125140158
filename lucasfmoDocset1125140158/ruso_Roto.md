@@ -102,37 +102,37 @@ ms.locfileid: "42023614"
 
 <span data-ttu-id="5843e-209">**Ответ**: В этой статье рассматриваются требования, необходимые для развертывания этого компонента.</span><span class="sxs-lookup"><span data-stu-id="5843e-209">**A**: This article discusses what you need to deploy this feature.</span></span> <span data-ttu-id="5843e-210">После выполнения требований необходимо перейти к руководству, сведения из которого будут полезны при настройке и перемещении журналов в концентратор событий.</span><span class="sxs-lookup"><span data-stu-id="5843e-210">After you've satisfied the prerequisites, go to the tutorials that can help you configure and route your logs to an event hub.</span></span>
 
----
+
 
 <span data-ttu-id="5843e-211">**Вопрос: Какие журналы включены?**</span><span class="sxs-lookup"><span data-stu-id="5843e-211">**Q: Which logs are included?**</span></span>
 
 <span data-ttu-id="5843e-212">**Ответ**: Журналы входа в систему и журналы аудита доступны для направления через эту функцию, несмотря на то, что события аудита в клиенте B2C в настоящее время не поддерживаются.</span><span class="sxs-lookup"><span data-stu-id="5843e-212">**A**: The sign-in activity logs and audit logs are both available for routing through this feature, although B2C-related audit events are currently not included.</span></span> <span data-ttu-id="5843e-213">Чтобы узнать, какие типы журналов и какие журналы компонентов поддерживаются в настоящее время, ознакомьтесь со статьями [Интерпретация схемы журналов аудита Azure Active Directory в Azure Monitor (предварительная версия)](reference-azure-monitor-audit-log-schema.md) и [Интерпретация схемы журналов входа Azure Active Directory в Azure Monitor (предварительная версия)](reference-azure-monitor-sign-ins-log-schema.md).</span><span class="sxs-lookup"><span data-stu-id="5843e-213">To find out which types of logs and which feature-based logs are currently supported, see [Audit log schema](reference-azure-monitor-audit-log-schema.md) and [Sign-in log schema](reference-azure-monitor-sign-ins-log-schema.md).</span></span> 
 
----
+
 
 <span data-ttu-id="5843e-214">**Вопрос: Через какое время после выполнения действия соответствующие журналы будут отображаться в Центрах событий?**</span><span class="sxs-lookup"><span data-stu-id="5843e-214">**Q: How soon after an action do the corresponding logs show up in event hubs?**</span></span>
 
 <span data-ttu-id="5843e-215">**Ответ**: Журналы должны появляться в центре событий в течение двух-пяти минут после выполнения действия.</span><span class="sxs-lookup"><span data-stu-id="5843e-215">**A**: The logs should show up in your event hub within two to five minutes after the action is performed.</span></span> <span data-ttu-id="5843e-216">Дополнительные сведения о Центрах событий см. в статье [Что такое Центры событий Azure?](../../event-hubs/event-hubs-about.md)</span><span class="sxs-lookup"><span data-stu-id="5843e-216">For more information about Event Hubs, see [What is Azure Event Hubs?](../../event-hubs/event-hubs-about.md).</span></span>
 
----
+
 
 <span data-ttu-id="5843e-217">**Вопрос: Через какое время после выполнения действия соответствующие журналы будут отображаться в учетных записях хранения?**</span><span class="sxs-lookup"><span data-stu-id="5843e-217">**Q: How soon after an action do the corresponding logs show up in storage accounts?**</span></span>
 
 <span data-ttu-id="5843e-218">**Ответ**: Для учетных записей хранения Azure время ожидания составляет от 5 до 15 минут с момента выполнения действия.</span><span class="sxs-lookup"><span data-stu-id="5843e-218">**A**: For Azure storage accounts, the latency is anywhere from 5 to 15 minutes after the action is performed.</span></span>
 
----
+
 
 <span data-ttu-id="5843e-219">**Вопрос: Сколько будет стоить хранение данных?**</span><span class="sxs-lookup"><span data-stu-id="5843e-219">**Q: How much will it cost to store my data?**</span></span>
 
 <span data-ttu-id="5843e-220">**Ответ**: Затраты на хранение зависят как от размеров журналов, так и от сроков их хранения.</span><span class="sxs-lookup"><span data-stu-id="5843e-220">**A**: The storage costs depend on both the size of your logs and the retention period you choose.</span></span> <span data-ttu-id="5843e-221">Сведения о размере ожидаемых затрат для клиентов, которые зависят от объема созданных журналов, см. в разделе [Размер хранилища для журналов действий](#storage-size-for-activity-logs).</span><span class="sxs-lookup"><span data-stu-id="5843e-221">For a list of the estimated costs for tenants, which depend on the volume of logs generated, see the [Storage size for activity logs](#storage-size-for-activity-logs) section.</span></span>
 
----
+
 
 <span data-ttu-id="5843e-222">**Вопрос: Сколько будет стоить потоковая передача данных в концентраторы событий?**</span><span class="sxs-lookup"><span data-stu-id="5843e-222">**Q: How much will it cost to stream my data to an event hub?**</span></span>
 
 <span data-ttu-id="5843e-223">**Ответ**: Стоимость потоковой передачи зависит от количества сообщений, получаемых за минуту.</span><span class="sxs-lookup"><span data-stu-id="5843e-223">**A**: The streaming costs depend on the number of messages you receive per minute.</span></span> <span data-ttu-id="5843e-224">В этой статье рассматривается расчет затрат и перечислены оценки расходов, которые основаны на количестве сообщений.</span><span class="sxs-lookup"><span data-stu-id="5843e-224">This article discusses how the costs are calculated and lists cost estimates, which are based on the number of messages.</span></span> 
 
----
+
 
 <span data-ttu-id="5843e-225">**Вопрос: Как интегрировать журналы действий Azure AD с системой SIEM?**</span><span class="sxs-lookup"><span data-stu-id="5843e-225">**Q: How do I integrate Azure AD activity logs with my SIEM system?**</span></span>
 
@@ -142,31 +142,31 @@ ms.locfileid: "42023614"
 
 - <span data-ttu-id="5843e-229">Используйте [API Graph для отчетов](concept-reporting-api.md) для доступа к данным и передайте их в систему SIEM с помощью собственных скриптов.</span><span class="sxs-lookup"><span data-stu-id="5843e-229">Use the [Reporting Graph API](concept-reporting-api.md) to access the data, and push it into the SIEM system using your own scripts.</span></span>
 
----
+
 
 <span data-ttu-id="5843e-230">**Вопрос: Какие средства SIEM поддерживаются в настоящее время?**</span><span class="sxs-lookup"><span data-stu-id="5843e-230">**Q: What SIEM tools are currently supported?**</span></span> 
 
 <span data-ttu-id="5843e-231">**Ответ**: Сейчас Azure Monitor поддерживают [Splunk](tutorial-integrate-activity-logs-with-splunk.md), QRadar и [Sumo Logic](https://help.sumologic.com/Send-Data/Applications-and-Other-Data-Sources/Azure_Active_Directory).</span><span class="sxs-lookup"><span data-stu-id="5843e-231">**A**: Currently, Azure Monitor is supported by [Splunk](tutorial-integrate-activity-logs-with-splunk.md), QRadar, and [Sumo Logic](https://help.sumologic.com/Send-Data/Applications-and-Other-Data-Sources/Azure_Active_Directory).</span></span> <span data-ttu-id="5843e-232">Дополнительные сведения о работе соединителей см. в статье [Потоковая передача данных мониторинга Azure в концентратор событий для потребления внешним инструментом](../../monitoring-and-diagnostics/monitor-stream-monitoring-data-event-hubs.md).</span><span class="sxs-lookup"><span data-stu-id="5843e-232">For more information about how the connectors work, see [Stream Azure monitoring data to an event hub for consumption by an external tool](../../monitoring-and-diagnostics/monitor-stream-monitoring-data-event-hubs.md).</span></span>
 
----
+
 
 <span data-ttu-id="5843e-233">**Вопрос: Как интегрировать журналы действий Azure AD с экземпляром Splunk?**</span><span class="sxs-lookup"><span data-stu-id="5843e-233">**Q: How do I integrate Azure AD activity logs with my Splunk instance?**</span></span>
 
 <span data-ttu-id="5843e-234">**Ответ**: Сначала [направьте журналы действий Azure AD в концентратор событий](quickstart-azure-monitor-stream-logs-to-event-hub.md), а затем выполните следующие действия, чтобы [интегрировать журналы действий со Splunk](tutorial-integrate-activity-logs-with-splunk.md).</span><span class="sxs-lookup"><span data-stu-id="5843e-234">**A**: First, [route the Azure AD activity logs to an event hub](quickstart-azure-monitor-stream-logs-to-event-hub.md), then follow the steps to [Integrate activity logs with Splunk](tutorial-integrate-activity-logs-with-splunk.md).</span></span>
 
----
+
 
 <span data-ttu-id="5843e-235">**Вопрос: Как интегрировать журналы действий Azure AD с Sumo Logic?**</span><span class="sxs-lookup"><span data-stu-id="5843e-235">**Q: How do I integrate Azure AD activity logs with Sumo Logic?**</span></span> 
 
 <span data-ttu-id="5843e-236">**Ответ.** Сначала [направьте журналы действий Azure AD в концентратор событий](https://help.sumologic.com/Send-Data/Applications-and-Other-Data-Sources/Azure_Active_Directory/Collect_Logs_for_Azure_Active_Directory), а затем выполните следующие действия, чтобы [установить приложение Azure AD и просмотреть панели мониторинга в SumoLogic](https://help.sumologic.com/Send-Data/Applications-and-Other-Data-Sources/Azure_Active_Directory/Install_the_Azure_Active_Directory_App_and_View_the_Dashboards).</span><span class="sxs-lookup"><span data-stu-id="5843e-236">**A**: First, [route the Azure AD activity logs to an event hub](https://help.sumologic.com/Send-Data/Applications-and-Other-Data-Sources/Azure_Active_Directory/Collect_Logs_for_Azure_Active_Directory), then follow the steps to [Install the Azure AD application and view the dashboards in SumoLogic](https://help.sumologic.com/Send-Data/Applications-and-Other-Data-Sources/Azure_Active_Directory/Install_the_Azure_Active_Directory_App_and_View_the_Dashboards).</span></span>
 
----
+
 
 <span data-ttu-id="5843e-237">**Вопрос. Возможно ли получить доступ к данным из концентратора событий без использования внешнего средства SIEM?**</span><span class="sxs-lookup"><span data-stu-id="5843e-237">**Q: Can I access the data from an event hub without using an external SIEM tool?**</span></span> 
 
 <span data-ttu-id="5843e-238">**Ответ**. Да.</span><span class="sxs-lookup"><span data-stu-id="5843e-238">**A**: Yes.</span></span> <span data-ttu-id="5843e-239">Для доступа к журналам из пользовательского приложения можно использовать [API Центров событий](../../event-hubs/event-hubs-dotnet-standard-getstarted-receive-eph.md).</span><span class="sxs-lookup"><span data-stu-id="5843e-239">To access the logs from your custom application, you can use the [Event Hubs API](../../event-hubs/event-hubs-dotnet-standard-getstarted-receive-eph.md).</span></span> 
 
----
+
 
 
 ## <a name="next-steps"></a><span data-ttu-id="5843e-240">Дополнительная информация</span><span class="sxs-lookup"><span data-stu-id="5843e-240">Next steps</span></span>
