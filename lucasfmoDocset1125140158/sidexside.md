@@ -102,37 +102,34 @@ ms.locfileid: "45740642"
 
 <span data-ttu-id="0849a-209">**答**： 本文讨论部署此功能需要做哪些准备。</span><span class="sxs-lookup"><span data-stu-id="0849a-209">**A**: This article discusses what you need to deploy this feature.</span></span> <span data-ttu-id="0849a-210">符合先决条件以后，请查看各个教程，了解如何配置日志并将其路由到事件中心。</span><span class="sxs-lookup"><span data-stu-id="0849a-210">After you've satisfied the prerequisites, go to the tutorials that can help you configure and route your logs to an event hub.</span></span>
 
----
 
 <span data-ttu-id="0849a-211">**问：哪些日志包括在其中？**</span><span class="sxs-lookup"><span data-stu-id="0849a-211">**Q: Which logs are included?**</span></span>
 
 <span data-ttu-id="0849a-212">**答**： 登录活动日志和审核日志均可通过此功能进行路由，虽然与 B2C 相关的审核事件目前未包括在其中。</span><span class="sxs-lookup"><span data-stu-id="0849a-212">**A**: The sign-in activity logs and audit logs are both available for routing through this feature, although B2C-related audit events are currently not included.</span></span> <span data-ttu-id="0849a-213">若要了解目前支持哪些类型的日志和哪些基于功能的日志，请参阅[审核日志架构](reference-azure-monitor-audit-log-schema.md)和[登录日志架构](reference-azure-monitor-sign-ins-log-schema.md)。</span><span class="sxs-lookup"><span data-stu-id="0849a-213">To find out which types of logs and which feature-based logs are currently supported, see [Audit log schema](reference-azure-monitor-audit-log-schema.md) and [Sign-in log schema](reference-azure-monitor-sign-ins-log-schema.md).</span></span> 
 
----
+
 
 <span data-ttu-id="0849a-214">**问：执行某项操作之后，相应的日志多快会显示在事件中心？**</span><span class="sxs-lookup"><span data-stu-id="0849a-214">**Q: How soon after an action do the corresponding logs show up in event hubs?**</span></span>
 
 <span data-ttu-id="0849a-215">**答**： 日志会在执行操作后两到五分钟内显示在事件中心。</span><span class="sxs-lookup"><span data-stu-id="0849a-215">**A**: The logs should show up in your event hub within two to five minutes after the action is performed.</span></span> <span data-ttu-id="0849a-216">有关事件中心的详细信息，请参阅[什么是 Azure 事件中心？](../../event-hubs/event-hubs-about.md)。</span><span class="sxs-lookup"><span data-stu-id="0849a-216">For more information about Event Hubs, see [What is Azure Event Hubs?](../../event-hubs/event-hubs-about.md).</span></span>
 
----
 
 <span data-ttu-id="0849a-217">**问：执行某项操作之后，相应的日志多快会显示在存储帐户中？**</span><span class="sxs-lookup"><span data-stu-id="0849a-217">**Q: How soon after an action do the corresponding logs show up in storage accounts?**</span></span>
 
 <span data-ttu-id="0849a-218">**答**： 就 Azure 存储帐户来说，执行操作之后，日志在其中的显示会有一个 5 到 15 分钟的延迟。</span><span class="sxs-lookup"><span data-stu-id="0849a-218">**A**: For Azure storage accounts, the latency is anywhere from 5 to 15 minutes after the action is performed.</span></span>
 
----
 
 <span data-ttu-id="0849a-219">**问：存储数据的费用是多少？**</span><span class="sxs-lookup"><span data-stu-id="0849a-219">**Q: How much will it cost to store my data?**</span></span>
 
 <span data-ttu-id="0849a-220">**答**： 存储费用取决于日志大小以及所选保留期。</span><span class="sxs-lookup"><span data-stu-id="0849a-220">**A**: The storage costs depend on both the size of your logs and the retention period you choose.</span></span> <span data-ttu-id="0849a-221">如需租户估算费用（取决于生成的日志量）的列表，请参阅[活动日志的存储大小](#storage-size-for-activity-logs)部分。</span><span class="sxs-lookup"><span data-stu-id="0849a-221">For a list of the estimated costs for tenants, which depend on the volume of logs generated, see the [Storage size for activity logs](#storage-size-for-activity-logs) section.</span></span>
 
----
+
 
 <span data-ttu-id="0849a-222">**问：将数据流式传输到事件中心的费用是多少？**</span><span class="sxs-lookup"><span data-stu-id="0849a-222">**Q: How much will it cost to stream my data to an event hub?**</span></span>
 
 <span data-ttu-id="0849a-223">**答**： 流式传输费用取决于你每分钟收到的消息数。</span><span class="sxs-lookup"><span data-stu-id="0849a-223">**A**: The streaming costs depend on the number of messages you receive per minute.</span></span> <span data-ttu-id="0849a-224">本文介绍了费用计算方法并列出了根据消息数估算的费用。</span><span class="sxs-lookup"><span data-stu-id="0849a-224">This article discusses how the costs are calculated and lists cost estimates, which are based on the number of messages.</span></span> 
 
----
+
 
 <span data-ttu-id="0849a-225">**问：如何将 Azure AD 活动日志与 SIEM 系统集成？**</span><span class="sxs-lookup"><span data-stu-id="0849a-225">**Q: How do I integrate Azure AD activity logs with my SIEM system?**</span></span>
 
@@ -142,31 +139,30 @@ ms.locfileid: "45740642"
 
 - <span data-ttu-id="0849a-229">使用[报告图形 API](concept-reporting-api.md) 访问数据，并使用自己的脚本将其推送到 SIEM 系统。</span><span class="sxs-lookup"><span data-stu-id="0849a-229">Use the [Reporting Graph API](concept-reporting-api.md) to access the data, and push it into the SIEM system using your own scripts.</span></span>
 
----
+
 
 <span data-ttu-id="0849a-230">**问：目前支持哪些 SIEM 工具？**</span><span class="sxs-lookup"><span data-stu-id="0849a-230">**Q: What SIEM tools are currently supported?**</span></span> 
 
 <span data-ttu-id="0849a-231">**答**： 目前，[Splunk](tutorial-integrate-activity-logs-with-splunk.md)、QRadar 和 [Sumo Logic](https://help.sumologic.com/Send-Data/Applications-and-Other-Data-Sources/Azure_Active_Directory) 支持 Azure Monitor。</span><span class="sxs-lookup"><span data-stu-id="0849a-231">**A**: Currently, Azure Monitor is supported by [Splunk](tutorial-integrate-activity-logs-with-splunk.md), QRadar, and [Sumo Logic](https://help.sumologic.com/Send-Data/Applications-and-Other-Data-Sources/Azure_Active_Directory).</span></span> <span data-ttu-id="0849a-232">若要详细了解连接器的工作方式，请参阅[将 Azure 监视数据流式传输到事件中心供外部工具使用](../../monitoring-and-diagnostics/monitor-stream-monitoring-data-event-hubs.md)。</span><span class="sxs-lookup"><span data-stu-id="0849a-232">For more information about how the connectors work, see [Stream Azure monitoring data to an event hub for consumption by an external tool](../../monitoring-and-diagnostics/monitor-stream-monitoring-data-event-hubs.md).</span></span>
 
----
 
 <span data-ttu-id="0849a-233">**问：如何将 Azure AD 活动日志与 Splunk 实例集成？**</span><span class="sxs-lookup"><span data-stu-id="0849a-233">**Q: How do I integrate Azure AD activity logs with my Splunk instance?**</span></span>
 
 <span data-ttu-id="0849a-234">**答**： 首先，[将 Azure AD 活动日志路由到事件中心](quickstart-azure-monitor-stream-logs-to-event-hub.md)，然后按照步骤[将活动日志与 Splunk 集成](tutorial-integrate-activity-logs-with-splunk.md)。</span><span class="sxs-lookup"><span data-stu-id="0849a-234">**A**: First, [route the Azure AD activity logs to an event hub](quickstart-azure-monitor-stream-logs-to-event-hub.md), then follow the steps to [Integrate activity logs with Splunk](tutorial-integrate-activity-logs-with-splunk.md).</span></span>
 
----
+
 
 <span data-ttu-id="0849a-235">**问：如何将 Azure AD 活动日志与 Sumo Logic 集成？**</span><span class="sxs-lookup"><span data-stu-id="0849a-235">**Q: How do I integrate Azure AD activity logs with Sumo Logic?**</span></span> 
 
 <span data-ttu-id="0849a-236">**答**： 首先，[将 Azure AD 活动日志路由到事件中心](https://help.sumologic.com/Send-Data/Applications-and-Other-Data-Sources/Azure_Active_Directory/Collect_Logs_for_Azure_Active_Directory)，然后按照步骤[安装 Azure AD 应用程序并查看 SumoLogic 中的仪表板](https://help.sumologic.com/Send-Data/Applications-and-Other-Data-Sources/Azure_Active_Directory/Install_the_Azure_Active_Directory_App_and_View_the_Dashboards)。</span><span class="sxs-lookup"><span data-stu-id="0849a-236">**A**: First, [route the Azure AD activity logs to an event hub](https://help.sumologic.com/Send-Data/Applications-and-Other-Data-Sources/Azure_Active_Directory/Collect_Logs_for_Azure_Active_Directory), then follow the steps to [Install the Azure AD application and view the dashboards in SumoLogic](https://help.sumologic.com/Send-Data/Applications-and-Other-Data-Sources/Azure_Active_Directory/Install_the_Azure_Active_Directory_App_and_View_the_Dashboards).</span></span>
 
----
+
 
 <span data-ttu-id="0849a-237">**问：是否可以在不使用外部 SIEM 工具的情况下，从事件中心访问数据？**</span><span class="sxs-lookup"><span data-stu-id="0849a-237">**Q: Can I access the data from an event hub without using an external SIEM tool?**</span></span> 
 
 <span data-ttu-id="0849a-238">**答**： 可以。</span><span class="sxs-lookup"><span data-stu-id="0849a-238">**A**: Yes.</span></span> <span data-ttu-id="0849a-239">若要通过自定义应用程序来访问日志，可以使用[事件中心 API](../../event-hubs/event-hubs-dotnet-standard-getstarted-receive-eph.md)。</span><span class="sxs-lookup"><span data-stu-id="0849a-239">To access the logs from your custom application, you can use the [Event Hubs API](../../event-hubs/event-hubs-dotnet-standard-getstarted-receive-eph.md).</span></span> 
 
----
+
 
 
 ## <a name="next-steps"></a><span data-ttu-id="0849a-240">后续步骤</span><span class="sxs-lookup"><span data-stu-id="0849a-240">Next steps</span></span>
