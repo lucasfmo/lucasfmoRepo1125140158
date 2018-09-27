@@ -234,7 +234,7 @@ ms.locfileid: "45639725"
 1. Kubernetes 構成 Web サイトがブラウザーで開いたら、**コンテナー化されたアプリをデプロイする**ためのリンクをクリックします。
 
    ![Kubernetes 構成 Web サイト][KB01]
-
+ 
 1. **[Resource Creation]\(リソースの作成\)** ページが表示されたら、次のオプションを指定します。
 
    a. **[CREATE AN APP]\(アプリの作成\)** を選択します。
@@ -243,7 +243,7 @@ ms.locfileid: "45639725"
 
    c. ログイン サーバーとコンテナー イメージを **[Container image]\(コンテナー イメージ\)** に入力します (例: "*wingtiptoysregistry.azurecr.io/gs-spring-boot-docker:latest*")。
 
-   d. **[Service]\(サービス)\** で **[External]\(外部)\** を選択します。
+   d. **[Service]\(サービス)** で **[External]\(外部)** を選択します。
 
    e. 外部ポートと内部ポートを **[Port]\(ポート)\** テキスト ボックスと **[Target port]\(ターゲット ポート\)** テキスト ボックスに指定します。
 
