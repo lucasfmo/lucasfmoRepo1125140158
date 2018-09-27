@@ -241,7 +241,7 @@ ms.locfileid: "45639725"
 
    b. Spring Boot アプリケーション名を **[App name]\(アプリ名\)** に入力します (例: "*gs-spring-boot-docker*")。
 
-   c. ログイン サーバーとコンテナー イメージを **[Container image]\(コンテナー イメージ\)** に入力します (例: "*wingtiptoysregistry.azurecr.io/gs-spring-boot-docker:latest*")。
+   c. ログイン サーバーとコンテナー イメージを **[Container image]\(コンテナー イメージ)** に入力します (例: "*wingtiptoysregistry.azurecr.io/gs-spring-boot-docker:latest*")。
 
    d. **[Service]\(サービス)** で **[External]\(外部)** を選択します。
 
