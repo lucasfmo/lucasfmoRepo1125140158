@@ -237,7 +237,7 @@ ms.locfileid: "45639725"
  
 1. **[Resource Creation]\(リソースの作成\)** ページが表示されたら、次のオプションを指定します。
 
-   a. **[CREATE AN APP]\(アプリの作成\)** を選択します。
+   a. **[CREATE AN APP](アプリの作成\)** を選択します。
 
    b. Spring Boot アプリケーション名を **[App name]\(アプリ名\)** に入力します (例: "*gs-spring-boot-docker*")。
 
