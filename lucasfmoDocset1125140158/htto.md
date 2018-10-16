@@ -38,6 +38,8 @@ Existují tři způsoby, jak tento problém vyřešit. Volby níže jsou uvedeny
 
 2.  Pokud vaše aplikace použít plně kvalifikované názvy domény (FQDN), použijte [vlastní domény](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-custom-domains) k publikování aplikací. Tato funkce umožňuje stejnou adresu URL, který se má použít jak interně a externě.
 
+[http://localhost:8080](http://localhost:8080)
+
     Tato možnost zajistí odkazy v aplikaci externě přístupné prostřednictvím Proxy aplikace vzhledem k tomu, že na odkazy v aplikaci na interní adresy URL jsou také rozpoznány externě. Všimněte si, že všechny odkazy stále potřeba patří k publikované aplikaci. Však pomocí této možnosti odkazy nemusí patřit do stejné aplikaci a můžou patřit do více aplikací.
 
 3.  Pokud žádná z těchto možností jsou vhodná, připojíte preview pro novou funkci, která provádějí překlad/přepisování adresy URL. Tato možnost, interní adresy URL nebo odkazy, které existují v těle HTML aplikací se přeložit, nebo "namapované", na publikované externí Proxy adresy URL aplikací. To funguje pouze pro odkazy HTML nebo šablon stylů CSS, a to není pomoct v případě odkaz na vaši je generována prostřednictvím JS. 
