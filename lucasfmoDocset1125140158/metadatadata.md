@@ -10,7 +10,9 @@ ms.component: face-api
 ms.topic: reference
 ms.date: 03/01/2018
 ms.author: sbowles
+
 ---
+
 # API Reference
 
 The Microsoft Face API is a cloud-based API that provides the most advanced algorithms for face detection and recognition.
