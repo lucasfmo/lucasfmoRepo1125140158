@@ -4,13 +4,11 @@ description: API reference provides information about the Person Management, Lar
 services: cognitive-services
 author: SteveMSFT
 manager: cgronlun
-
 ms.service: cognitive-services
 ms.component: face-api
 ms.topic: reference
 ms.date: 03/01/2018
 ms.author: sbowles
-
 ---
 
 # API Reference
