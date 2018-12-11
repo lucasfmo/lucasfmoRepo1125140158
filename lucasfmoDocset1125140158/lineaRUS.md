@@ -107,13 +107,13 @@ ms.locfileid: "51625442"
 
 ---
 
-<span data-ttu-id="fa404-216">**Вопрос. Через какое время после выполнения действия соответствующие журналы отобразятся в концентраторе событий?**</span><span class="sxs-lookup"><span data-stu-id="fa404-216">**Q: How soon after an action will the corresponding logs show up in my event hub?**</span></span>
+<span data-ttu-id="fa404-216">**Вопрос: Через какое время после выполнения действия соответствующие журналы отобразятся в концентраторе событий?**</span><span class="sxs-lookup"><span data-stu-id="fa404-216">**Q: How soon after an action will the corresponding logs show up in my event hub?**</span></span>
 
 <span data-ttu-id="fa404-217">**Ответ:** Журналы должны появляться в центре событий в течение двух-пяти минут после выполнения действия.</span><span class="sxs-lookup"><span data-stu-id="fa404-217">**A**: The logs should show up in your event hub within two to five minutes after the action is performed.</span></span> <span data-ttu-id="fa404-218">Дополнительные сведения о Центрах событий см. в статье [Что такое Центры событий Azure?](../../event-hubs/event-hubs-about.md)</span><span class="sxs-lookup"><span data-stu-id="fa404-218">For more information about Event Hubs, see [What is Azure Event Hubs?](../../event-hubs/event-hubs-about.md).</span></span>
 
 ---
 
-<span data-ttu-id="fa404-219">**Вопрос. Через какое время после выполнения действия соответствующие журналы отобразятся в учетной записи хранения?**</span><span class="sxs-lookup"><span data-stu-id="fa404-219">**Q: How soon after an action will the corresponding logs show up in my storage account?**</span></span>
+<span data-ttu-id="fa404-219">**Вопрос: Через какое время после выполнения действия соответствующие журналы отобразятся в учетной записи хранения?**</span><span class="sxs-lookup"><span data-stu-id="fa404-219">**Q: How soon after an action will the corresponding logs show up in my storage account?**</span></span>
 
 <span data-ttu-id="fa404-220">**Ответ:** Для учетных записей хранения Azure время ожидания составляет от 5 до 15 минут с момента выполнения действия.</span><span class="sxs-lookup"><span data-stu-id="fa404-220">**A**: For Azure storage accounts, the latency is anywhere from 5 to 15 minutes after the action is performed.</span></span>
 
