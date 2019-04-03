@@ -22,28 +22,28 @@ metadata:
 items:
 - durationInMinutes: 1
   content: >
-    [!INCLUDE [](../../includes/intro.md)]
+    [!INCLUDE [](https://github.com/lucasfmo/lucasfmoRepo1125140158/blob/master/lucasfmoDocset1125140158/includes/intro.md)]
 - title: Azure Blob Storage で Web アプリを作成する
   durationInMinutes: 12
   content: >
-    [!INCLUDE [](../../includes/static-site.md)]
+    [!INCLUDE [](https://github.com/lucasfmo/lucasfmoRepo1125140158/blob/master/lucasfmoDocset1125140158/includes/static-site.md)]
 - title: Azure Functions を使用して Blob Storage に画像をアップロードする
   durationInMinutes: 20
-  content: "[!INCLUDE [](../../includes/upload-images.md)] \n"
+  content: "[!INCLUDE [](https://github.com/lucasfmo/lucasfmoRepo1125140158/blob/master/lucasfmoDocset1125140158/includes/upload-images.md)] \n"
 - title: Azure Functions を使用して画像のサイズを変更する
   durationInMinutes: 15
   content: >
-    [!INCLUDE [](../../includes/resize-images.md)]
+    [!INCLUDE [](https://github.com/lucasfmo/lucasfmoRepo1125140158/blob/master/lucasfmoDocset1125140158/includes/resize-images.md)]
 - title: Azure Cosmos DB を使用して画像のメタデータを格納する
   durationInMinutes: 15
   content: >
-    [!INCLUDE [](../../includes/store-images.md)]
+    [!INCLUDE [](https://github.com/lucasfmo/lucasfmoRepo1125140158/blob/master/lucasfmoDocset1125140158/includes/store-images.md)]
 - title: Computer Vision を使用して画像のキャプションを追加する
   durationInMinutes: 15
   content: >
-    [!INCLUDE [](../../includes/computer-vision.md)]
+    [!INCLUDE [](https://github.com/lucasfmo/lucasfmoRepo1125140158/blob/master/lucasfmoDocset1125140158/includes/computer-vision.md)]
 - title: 認証を追加する
   durationInMinutes: 15
   content: >
-    [!INCLUDE [](../../includes/authentication.md)]
-- content: '[!INCLUDE [](../../includes/completed.md)]'
+    [!INCLUDE [](https://github.com/lucasfmo/lucasfmoRepo1125140158/blob/master/lucasfmoDocset1125140158/includes/authentication.md)]
+- content: '[!INCLUDE [](https://github.com/lucasfmo/lucasfmoRepo1125140158/blob/master/lucasfmoDocset1125140158/includes/completed.md)]'
